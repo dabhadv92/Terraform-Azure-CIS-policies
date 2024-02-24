@@ -78,12 +78,12 @@ resource "azurerm_network_security_group" "NSG" {
     destination_address_prefix = "10.0.2.0/24"
   }
 
-/*
+
   security_rule {
     name                       = "Rule-1"
     priority                   = 100
     direction                  = "Outbound"
-    access                     = "Allow"
+    access                     = "Deny"
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "*"
@@ -91,6 +91,6 @@ resource "azurerm_network_security_group" "NSG" {
     destination_address_prefix = "*"
   }
 
-*/
+
   
 }
