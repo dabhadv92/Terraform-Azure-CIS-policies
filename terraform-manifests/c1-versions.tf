@@ -26,6 +26,7 @@ provider "azurerm" {
  features {}          
 }
 
+/*
 # Random String Resource
 resource "random_string" "myrandom" {
   length = 6
@@ -34,4 +35,5 @@ resource "random_string" "myrandom" {
   #number = false   
 }
 
+*/
 
